@@ -414,7 +414,8 @@ column-gap: 5px;
 
   &--empty {
     margin: 80px auto;
-    width: 620px;
+    max-width: 620px;
+
     text-align: center;
 
     h2 {
@@ -437,7 +438,7 @@ column-gap: 5px;
 
     img {
       display: block;
-      width: 300px;
+      max-width: 300px;
       margin: 45px auto 60px;
     }
 
