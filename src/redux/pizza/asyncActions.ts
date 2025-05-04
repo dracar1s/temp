@@ -13,7 +13,7 @@ export const fetchPizzas = createAsyncThunk<Pizza[], SearchPizzaParams>(
       params: pickBy(
         {
           page: currentPage,
-          limit: 8,
+          limit: 12,
           category,
           sortBy,
           order,
